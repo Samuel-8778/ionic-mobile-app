@@ -1,0 +1,7 @@
+{
+  "name": "Holy Mom",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

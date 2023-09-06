@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="flex-center m-2" color="success">
+  <ion-card *ngFor="let item of listOfPlaces">
+    <ion-card-header>
+      <ion-card-title>{{item.name}}</ion-card-title>
+      <ion-card-subtitle>{{item.location}}</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <img src="{{item.imageUrl}}" height="150" width="320">
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+<ion-footer class="ion-padding ion-text-center custom-footer">
+<ion-button shape="round" size="small" color="success" href="https://facebook.com"><ion-icon name="logo-facebook"></ion-icon></ion-button>
+  <ion-button shape="round" size="small" color="success" href="https://twitter.com"><ion-icon name="logo-twitter"></ion-icon></ion-button>
+  <ion-button shape="round" size="small" color="secondary" href="https://instagram.com"><ion-icon name="logo-instagram"></ion-icon></ion-button>
+</ion-footer>

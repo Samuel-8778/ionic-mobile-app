@@ -1,0 +1,17 @@
+ion-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+ion-header{
+    --background:var(--ion-color-success);
+}
+ion-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-footer {
+    background-color: #000000;
+    color: #fff;
+}
